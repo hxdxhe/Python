@@ -4,10 +4,10 @@
 # @Email : 5860034@qq.com
 # @File : 总结.py
 # @Project : test
-import zongjie
-class Review(zongjie):
+from zongjie import B
+class Review(B):
     def __init__(self):
-        pass
+        super(Review, self).__init__()
     # 进制转换
     def jinzhi(self):
         num = 99
@@ -89,11 +89,13 @@ class Review(zongjie):
         print('\n')
         for k in range(0,10,3):
             print(k,end='/')
-    def father(self):
-        super()
+    def parent(self,name,age):
+        print('This is parent class')
+        super(Review,self).student(name,age)
 
 
 result = Review()
 # result.jinzhi()
 # result.string()
 # result.flow()
+result.parent('storm',18)

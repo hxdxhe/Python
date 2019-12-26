@@ -4,7 +4,7 @@
 # @Email : 5860034@qq.com
 # @File : zongjie.py
 # @Project : test
-__all__=('A.test','B','cs')
+__all__=('A','B','cs')
 class A():
     def __init__(self):
         print('类A')
@@ -13,5 +13,8 @@ class A():
 class B():
     def __init__(self):
         print("类B")
+    def student(self,name,age):
+        self.name = name
+        self.age = age
 def cs():
     print('类外的方法')
