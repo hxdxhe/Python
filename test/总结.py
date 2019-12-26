@@ -4,8 +4,8 @@
 # @Email : 5860034@qq.com
 # @File : 总结.py
 # @Project : test
-
-class Review():
+import zongjie
+class Review(zongjie):
     def __init__(self):
         pass
     # 进制转换
@@ -68,11 +68,32 @@ class Review():
         isinstance(h1,int) #判断变量的类型
         print(type(h))
     #条件判断
-    def tiaojian(self):
-        pass
+    def flow(self):
+        j = "854wef969fwe687w66wefgw7s"
+        j1 = ['文峰违','storm','ariopr']
+        j2 = {1:'s',2:'e',3:'p'}
+        for i in j1:
+            # print(i)
+            if i == 'storm':
+                continue
+            print(i,end='|')
+        print('\n')
+        j3 = 0
+        while j3 <= 10:
+            j3 += 1
+            print(j3,end="|")
+        print('\n')
+        for j in j2:
+            print(j2[j],end="/")
+        # 数字循环
+        print('\n')
+        for k in range(0,10,3):
+            print(k,end='/')
+    def father(self):
+        super()
 
 
 result = Review()
 # result.jinzhi()
 # result.string()
-result.bianliang()
+# result.flow()
