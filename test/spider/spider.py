@@ -2,7 +2,7 @@ from urllib import request
 import re
 
 class Spider:
-    url = "https://www.huya.com/g/wzry"
+    url = "https://www.huya.com/g/2793"
     root_pattern = '<span class="txt">([\s\S]*?)</li>'
     name_pattern = '<i class="nick" title="[\s\S]*?">([\s\S]*?)</i>'
     number_pattern = '<i class="js-num">([\s\S]*?)</i>'
@@ -30,20 +30,25 @@ class Spider:
     # 精炼代码
     def __refine(self,anchors):
         l = lambda anchor:{
-            'name':anchor['name'][0],   #如果有空格的话用strip()去除
+
+            #如果有空格的话用strip()去除
+            'name':anchor['name'][0],   
             'number':anchor['number'][0]
         }
         return map(l,anchors)
 
     # 排序
     def __sort(self,anchors):
-        anchors = sorted(anchors,key=self.__sord_seed,reverse=True)    #需要指定key函数  reverse=True 是降序排列
+
+        #需要指定key函数  reverse=True 是降序排列
+        anchors = sorted(anchors,key=self.__sord_seed,reverse=True)    
         return anchors
 
     # sorted中的key参数传参
     def __sord_seed(self,anchor):
         r = re.findall('\d*',anchor['number'])
         number = float(r[0])
+
         if '万' in anchor['number']:
             number *= 10000
         return number
