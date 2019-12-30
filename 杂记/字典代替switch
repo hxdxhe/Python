@@ -1,0 +1,19 @@
+# 用字典映射代替switch case语句
+def get_sunday():
+    return 'Sunday'
+def get_unkown():
+    return 'Unkown'
+day = 9
+switcher = {
+    0 : get_sunday,   #value的值可以是函数
+    1 : 'Monday',
+    2 : 'Tuesday'
+}
+
+# day_name = switcher[day]
+# day_name = switcher.get(day,'Unkown')  #相当于switch中的default
+# day_name = switcher.get(day,'Unkown')()  #调用方法的返回值
+
+#当day不存在的时候，返回的是‘Unknown’（），不合法，所以需要把字符串‘Unknown’变成一个方法
+day_name = switcher.get(day,get_unkown)()
+print(day_name)
