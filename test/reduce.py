@@ -6,3 +6,4 @@
 # @Project : test
 from functools import reduce
 filter()
+reduce
