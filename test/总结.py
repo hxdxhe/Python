@@ -89,6 +89,11 @@ class Review(B):
         print('\n')
         for k in range(0,10,3):
             print(k,end='/')
+    # 类方法的调用
+
+    def class_fun(self):
+        pass
+
     def parent(self,name,age):
         print('This is parent class')
         super(Review,self).student(name,age)
