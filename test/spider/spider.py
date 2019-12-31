@@ -30,9 +30,8 @@ class Spider:
     # 精炼代码
     def __refine(self,anchors):
         l = lambda anchor:{
-
             #如果有空格的话用strip()去除
-            'name':anchor['name'][0],   
+            'name':anchor['name'][0],
             'number':anchor['number'][0]
         }
         return map(l,anchors)
