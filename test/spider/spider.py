@@ -1,8 +1,9 @@
 from urllib import request
 import re
+import time
 
 class Spider:
-    url = "https://www.huya.com/g/2793"
+    url = "https://www.huya.com/g/wzry"
     root_pattern = '<span class="txt">([\s\S]*?)</li>'
     name_pattern = '<i class="nick" title="[\s\S]*?">([\s\S]*?)</i>'
     number_pattern = '<i class="js-num">([\s\S]*?)</i>'
@@ -73,3 +74,4 @@ class Spider:
 
 spider = Spider()
 spider.go()
+time.sleep(600)
