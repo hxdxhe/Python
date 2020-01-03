@@ -1,6 +1,5 @@
 from urllib import request
 import re
-import time
 
 class Spider:
     url = "https://www.huya.com/g/wzry"
@@ -74,4 +73,3 @@ class Spider:
 
 spider = Spider()
 spider.go()
-time.sleep(600)
