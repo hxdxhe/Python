@@ -57,7 +57,7 @@ class Spider:
         for rank in range(0,len(anchors)):
             print('【'+str(rank+1)+' 】'+':'+anchors[rank]['name']+'    '+anchors[rank]['number'])
 
-    #外部展示方法
+    #向外部展示的方法
     def go(self):
 
         htmls = self.__fetch__content()
@@ -70,6 +70,6 @@ class Spider:
 
     
 
-
+# 调用
 spider = Spider()
 spider.go()
