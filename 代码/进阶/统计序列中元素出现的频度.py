@@ -29,5 +29,6 @@ d = c.most_common(3)
 
 # 案例二：英文文章词频统计
 txt = open('story.txt').read()
-txt = Counter(re.split('\W+',txt))
+print(txt)
+txt = Counter(re.split('\W+',txt))  #split()：拆分字符串。通过指定分隔符对字符串进行切片，并返回分割后的字符串列表（list）  '\W+'表示用非字母的字符串进行分割
 print(txt.most_common(3))
