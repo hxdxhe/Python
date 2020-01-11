@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2020/1/11 14:40
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : 快速查找字典中的公共键.py
-# @Project : Python_pro
 from random import randint,sample
 from functools import reduce
 # print(sample('abcdefgh',3))   #随机获取字符串中的3个元素

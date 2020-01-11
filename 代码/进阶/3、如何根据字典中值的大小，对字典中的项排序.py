@@ -1,4 +1,6 @@
 #-*- coding:utf-8 -*-
+# @Author : Aiopr
+# @Email : 5860034@qq.com
 from random import randint
 a = {x: randint(60,100) for x in 'xyzabc'}
 # print(a)

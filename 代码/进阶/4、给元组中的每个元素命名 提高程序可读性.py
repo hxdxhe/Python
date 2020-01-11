@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2020/1/10 8:56
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : 给元组中的每个元素命名 提高程序可读性.py
-# @Project : Python_pro
 from enum import IntEnum
 from collections import namedtuple
 # 第一种 枚举

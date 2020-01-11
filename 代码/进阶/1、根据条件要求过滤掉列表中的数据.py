@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2020/1/7 10:39
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : c1.py
-# @Project : Python_pro
 # 找出列表中的大于0的数
 from random import randint
 l = [randint(-10,10) for _ in range(10)]  # 在循环体重没有用到变量 用下划线_代替

@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2020/1/9 11:25
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : 统计序列中元素出现的频度.py
-# @Project : Python_pro
 
 
 # 方法一

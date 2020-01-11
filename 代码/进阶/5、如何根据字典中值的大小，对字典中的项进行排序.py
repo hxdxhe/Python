@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2020/1/11 9:06
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : 5、如何根据字典中值的大小，对字典中的项进行排序.py
-# @Project : Python_pro
 from random import randint
 # 方案一：将字典中的项转换成（键、值）元组。列表解析或者zip
 n = {x:randint(60,100) for x in 'abcdefghi'}
