@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019/12/28 10:00
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : 闭包.py
-# @Project : test
 def f1():
     a = 10
     def f2():

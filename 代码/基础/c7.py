@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019/12/22 10:24
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : c7.py
-# @Project : test
 class Student():
     sum = 0
     def __init__(self,name,age):

@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019/12/27 10:28
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : p3.py
-# @Project : test
 
 import requests
 import webbrowser

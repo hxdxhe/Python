@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019/12/24 16:39
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : zongjie.py
-# @Project : test
 __all__=('A','B','cs')
 class A():
     def __init__(self):

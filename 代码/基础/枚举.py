@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019/12/27 8:58
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : 枚举.py
 # @Project : test
 from enum import Enum
 class VIP(Enum):

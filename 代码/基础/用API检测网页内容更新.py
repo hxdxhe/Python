@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019/12/31 15:05
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : 用API检测网页内容更新.py
-# @Project : test
 import requests
 import webbrowser
 import time

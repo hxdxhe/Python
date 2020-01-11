@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2020/1/3 14:34
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : 爬取美足船袜.py
-# @Project : test
 # [url]http://mzsock.com[/url] 美足船袜网
 # -*- coding: UTF-8 -*-
 

@@ -1,11 +1,7 @@
-
-
 # -*- coding: utf-8 -*-
 # @Time : 2019/12/22 14:37
-# @Author : LiDong
+# @Author : Aiopr
 # @Email : 5860034@qq.com
-# @File : c8.py
-# @Project : test
 import re
 a = 'C|C++|Java|C#|Python|PHP'
 b = 'wefhweoifhwf9u7989&*7__--++==wejffew'

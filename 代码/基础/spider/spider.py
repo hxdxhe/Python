@@ -1,3 +1,5 @@
+# @Author : Aiopr
+# @Email : 5860034@qq.com
 from urllib import request
 import re
 
