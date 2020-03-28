@@ -28,7 +28,7 @@ class Student():
     #     print('\t')
     #     print(self.age)
     #     return
-    def marking(self):
+    def marking(self,name):
         self.__score = 90
         self.name = name
 result = Student('storm',18)
