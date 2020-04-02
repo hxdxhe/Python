@@ -1,39 +1,13 @@
-# from p.p1 import a
-# print("hello Python")
+# -*- coding:utf-8 -*-
 
-# a =[1,2,3,4,5,6,7,8,9,10]
-# # b = [a[0]:len(a):2]
-# for i in range(0,len(a),2):
-#     print(a[i])
-# b = a[0:len(a):2]
-# print(b)
-# print(b)
-# import sys
-# def print(code):
-#     print(code)
-#
-# print('python')
-class Student():
-    sum = 0
-    name = ''
-    age = 0
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-        # print("构造函数启动")
-        # print(name)
-        # print(age)
-    # def student_info(self):
-    #     print(self.name)
-    #     print('\t')
-    #     print(self.age)
-    #     return
-    def marking(self,name):
-        self.__score = 90
-        self.name = name
-result = Student('storm',18)
-# print(result.__dict__)
-# print(Student.__dict__)
+import re
+from datetime import datetime, timezone, timedelta
+# 测试:
+# t1 = to_timestamp('2015-6-1 08:10:30', 'UTC+7:00')
+# assert t1 == 1433121030.0, t1
+def to_timestamp(dt_str,tz_str):
+        cody = datetime.strptime(dt_str,'%Y-%m-%d %H:%M:%S')
 
 
 
+# to_timestamp('2015-6-1 08:10:30')
