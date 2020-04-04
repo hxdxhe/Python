@@ -8,6 +8,7 @@ from turtle import *
 # 设置色彩模式是RGB:
 colormode(255)
 
+
 lt(90)
 
 lv = 14
